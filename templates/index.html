@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Model Prediction</title>
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5%;
+    padding: 5%;
+    /*background-color: #f2f2f2;*/
+    background-image: url('bg.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+        /* You can also set additional styles such as background color */
+        /* background-color: #f0f0f0; */
+
+}
+
+.container {
+    max-width: 600px;
+    max-height: 1200px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Machine Learning Model Prediction</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <label for="file">Upload Image:</label><br>
+            <input type="file" id="file" name="file" accept="image/*"><br>
+            <br>
+            <button type="submit">Predict</button>
+        </form>
+        <br>
+        <br>
+     
+        <h2>Prediction Result:</h2>
+        <br>
+        <p>Predicted class: {{ predicted_class_name }}</p>
+        <br>
+  
+        
+
+    </div>
+</body>
+</html>
+
