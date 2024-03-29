@@ -1,7 +1,7 @@
 # Machine Learning Model Prediction Web Application
 This repository contains code for a Flask web application that allows users to upload images and make predictions using a pre-trained machine learning model. The model is trained to classify images into four classes: "Leaf Blight", "Leaf Fall Autumn", "Caterpillar", and "Healthy Leaf".
 
-[Alt text](https://github.com/ParasBhawsar/New-folder--2-/blob/main/predict.jpeg)
+![Alt text](https://github.com/ParasBhawsar/New-folder--2-/blob/main/predict.jpeg)
 
 Upload an image using the provided form and click "Predict" to see the predicted class.
 
